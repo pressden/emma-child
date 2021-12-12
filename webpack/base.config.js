@@ -61,7 +61,7 @@ module.exports = {
 					{
 						/* for resolve-url-loader: source maps must be enabled on any preceding loader */
 						loader: "sass-loader",
-						options: { sourceMap: false },
+						options: { sourceMap: true },
 					},
 				],
 			},
