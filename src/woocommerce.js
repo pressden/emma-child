@@ -1,9 +1,9 @@
 /*--------------------------------------------------------------
-# Emma Child - Webpack Admin Entrypoint
+# Emma Child - Webpack WooCommerce Entrypoint
 --------------------------------------------------------------*/
 
 // CSS
-import './sass/emma-child-admin.scss';
+import './sass/emma-child-woocommerce.scss';
 
 // JS
-import '../../emma/src/js/emma-admin';
+import '../../emma/src/js/woocommerce';
