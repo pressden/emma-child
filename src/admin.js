@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 // CSS
-import './sass/admin.scss';
+import './sass/emma-child-admin.scss';
 
 // JS
 import '../../emma/src/js/emma-admin';
