@@ -2,6 +2,11 @@
 # Emma Child - WooCommerce Styles
 --------------------------------------------------------------*/
 
-// Load styles for Woocommerce.
+// Load child theme variables first (Emma variables will be overridden).
+@import "variables";
+
+// Load WooCommerce styles from the Emma theme
 @import "../../../emma/src/sass/parent-woocommerce";
+
+// Load WooCommerce child theme styles last (Emma styles will be overridden).
 @import "woocommerce";
