@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 // CSS
-import './sass/emma-child-woocommerce.scss';
+import './sass/child-woocommerce.scss';
 
 // JS
 import '../../emma/src/js/woocommerce';

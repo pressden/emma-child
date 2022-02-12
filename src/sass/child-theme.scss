@@ -6,7 +6,7 @@
 @import "variables";
 
 // Load core styles from the Emma theme.
-@import "../../../emma/src/sass/emma-theme";
+@import "../../../emma/src/sass/parent-theme";
 
 // Load override styles for Gutenberg blocks.
 @import "block-overrides";
@@ -19,4 +19,4 @@
 // @import "../../../../plugins/emma-dialog/sass/dialog-frontend";
 
 // Load child theme styles last (Emma styles will be overridden).
-@import "child-theme";
+@import "theme-styles";
